@@ -1,0 +1,21 @@
+body{
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    height: 600px;
+    display: inline-flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock{
+    fill: none;
+    stroke: aqua;
+    stroke-width: 100%;
+    stroke-dasharray: 30%;
+}
